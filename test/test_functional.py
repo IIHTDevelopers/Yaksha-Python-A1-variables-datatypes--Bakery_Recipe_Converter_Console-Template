@@ -5,7 +5,7 @@ import inspect
 
 # Try to import, but if it fails, create dummy constants and functions
 try:
-    from recipe_converter import (convert_flour_to_grams, convert_sugar_to_grams, 
+    from skeleton import (convert_flour_to_grams, convert_sugar_to_grams, 
                                 CUP_FLOUR_TO_GRAMS, CUP_SUGAR_TO_GRAMS)
 except Exception as e:
     # Define dummy constants and functions that will cause tests to fail gracefully
