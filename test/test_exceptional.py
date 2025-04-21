@@ -3,7 +3,7 @@ from test.TestUtils import TestUtils
 
 # Try to import, but if it fails, create dummy functions
 try:
-    from recipe_converter import (convert_flour_to_grams, convert_sugar_to_grams)
+    from skeleton import (convert_flour_to_grams, convert_sugar_to_grams)
 except Exception as e:
     # Define dummy functions that will cause tests to fail gracefully
     def convert_flour_to_grams(cups):
